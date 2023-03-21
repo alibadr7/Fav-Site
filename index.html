@@ -1,0 +1,52 @@
+
+<html>
+
+<head>
+
+   <link rel="stylesheet" href="css/all.min.css" />
+ 
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+ 
+   <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-dark"> 
+
+   <header>
+		<div class="container">
+			<h3>Fav-Site</h3>
+		</div>
+	</header>
+	<div class="container bg-dark">
+		<div class="well bg-dark">
+			<div class="column">
+				<h2 >Bookmark your favorite sites </h2>
+				<p class="text-white ">Site Name</p>
+				<input class="form-control" id="siteName" placeholder="Site Name" type="text" />
+				<p class="alert alert-error m-auto  " id="nameError"></p>
+				<p class="text-white m-3" >Site URL</p>
+				<input class="form-control" id="siteUrl" placeholder="website URL" type="text" />
+				<p class="alert alert-error m-auto" id="urlError"></p>
+				<div class="m-auto">
+						<button class="btn btn-secondary " onclick="submit()">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container  w-75" >
+		<div id="bookmarkList" class="colom ">
+		
+			
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<p>&copy; Powered By Aly 2023.</p>
+		</div>
+	</footer>          
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/index.js"></script>
+</body>
+
+</html>
